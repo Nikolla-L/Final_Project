@@ -23,6 +23,7 @@ body{
 }
 .lang{
     left:2%;
+    margin-top:20px;
     z-index:20;
     position: fixed;
     cursor:pointer;
