@@ -31,6 +31,7 @@ body{
 	display: none;;
 }
 .lang{
+    margin-top:20px;
     left:2%;
     z-index:20;
     position: fixed;
