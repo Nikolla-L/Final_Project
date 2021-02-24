@@ -1,0 +1,48 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@font-face{
+    font-family:'tron';
+    src:url('../fonts/madeby.txt'),
+        url('../fonts/TRON.TTF');
+}
+@font-face {
+    font-family: 'KA_LORTKIPANIDZE';
+    src: url('../fonts/ka-lortkipanidze-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ka-lortkipanidze-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ka-lortkipanidze-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ka-lortkipanidze-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/ka-lortkipanidze-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ka-lortkipanidze-webfont.svg#ka_lortkipanidzeregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'BPG Boxo-Boxo';
+    src: url('../fonts/bpg-boxo-boxo-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-boxo-boxo-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-boxo-boxo-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-boxo-boxo-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-boxo-boxo-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-boxo-boxo-webfont.svg#bpg_boxo-boxoregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'BPG LE Studio 02';
+    src: url('../fonts/bpg-le-studio-02-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-le-studio-02-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-le-studio-02-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-le-studio-02-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-le-studio-02-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-le-studio-02-webfont.svg#bpg_le_studio_02regular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'BPG Mrgvlovani';
+    src: url('../fonts/bpg-mrgvlovani-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-mrgvlovani-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-mrgvlovani-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-mrgvlovani-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-mrgvlovani-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-mrgvlovani-webfont.svg#bpg_mrgvlovaniregular') format('svg'); /* Legacy iOS */
+}

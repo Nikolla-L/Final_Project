@@ -1,0 +1,178 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media(max-width:1366px){
+    .logo{
+        display:none;
+    }
+    header{
+        height:80px;
+        background-image:none;
+        background-color:rgba(0, 255, 255, 0.486);
+    }
+    @supports((-webkit-backdrop-filter: none) or (backdrop-filter: none)){
+        header{
+            -webkit-backdrop-filter: blur(10px);
+                    backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0);  
+        }
+    }
+    .header-navigation{
+        display:none;
+    }
+    .burger-bar{
+        display:block;
+    }
+    .hello-world{
+        height:300px;
+    }
+    .sec3-container,
+    .sec4-container{
+        width:1024px;
+    }
+}
+@media(max-width:1043px){
+    .hello-world{
+        width:98%;
+    }
+    .sec3-container{
+        width:868px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .sec3-container h3{
+        font-size:24px;
+    }
+    .sec3-container .shetavazeba{
+        width:100%;
+    }
+    .sec4-container{
+        width:868px;
+    }
+    .slideshow-container{
+        width:868px;
+    }
+}
+@media(max-width:886px){
+    .sec3-container,
+    .sec4-container,
+    .hello-world,
+    .slideshow-container{
+        width:640px;
+    }
+    .mySlides{
+        width:100%;
+    }
+    .mySlides img{
+        height:437px;
+    }
+    .hello-world{
+        font-size:24px;
+        height:280px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .hello-world span{
+        font-size:27px;
+    }
+    .menu-btn{
+        left:90%;
+    }
+}
+@media(max-width:660px){
+    .sec3-container,
+    .sec4-container,
+    .hello-world,
+    .slideshow-container{
+        width:375px;
+    }
+    .mySlides{
+        height:300px;
+    }
+    .mySlides img{
+        height:100%;
+    }
+    .hello-world{
+        font-size:20px;
+    }
+    .hello-world span{
+        font-size:21px;
+    }
+    .sec3-container h3,
+    .sec4-container h3{
+        font-size:19px;
+        width:97%;
+    }
+    .sec4-container{
+        height:240px;
+    }
+    .slide-sec-container,
+    .slideshow-container{
+        height:300px;
+    }
+    footer{
+        margin-top:395px;
+    }
+}
+@media(max-width:520px){
+    .contact-list{
+        width:300px;
+        margin:0 auto;
+    }
+    .contact-list::after{
+        font-size:12px;
+    }
+    .contact-list a i{
+        font-size:30px;
+    }.menu-btn{
+        left:85%;
+    }
+}
+@media(max-width:395px){
+    .sec3-container,
+    .sec4-container,
+    .hello-world,
+    .slideshow-container{
+        width:280px;
+    }
+    .sec4-container{
+        height:350px;
+    }
+    .hello-world{
+        font-size:14px;
+        height:200px;
+        padding-bottom:10px;
+    }
+    .slide-sec-container,
+    .slideshow-container{
+        height:250px;
+    }
+    .mySlides{
+        height:250px;
+    }
+    .hello-world span{
+        font-size:16px;
+    }
+    .contact-list{
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        width:80%;
+    }
+    .shetavazeba .registration a,
+    .sec4-container .registration a{
+        font-size:19px;
+    }
+    footer{
+        margin-top:345px;
+    }
+}

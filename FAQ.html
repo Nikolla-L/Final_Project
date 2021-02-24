@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="front-end course">
+    <meta name="keywords" content="online front-end, online academy, niko's final project, racxa gaugebroba">
+    <meta name="author" content="Nikolla-L">
+    <meta property="og:url"                content="https://github.com/Nikolla-L" />
+    <meta property="og:type"               content="online academy page" />
+    <meta property="og:title"              content="Front-End academy" />
+    <meta property="og:description"        content="Online Academy" />
+    <meta property="og:image"              content="https://dvg5hr78c8hf1.cloudfront.net/2016/06/21/15/24/53/f26db3ab-a04e-4d83-896d-d0d596d913f8/1*J7NZVHjie32udLRnbTEruA.png">
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/faq-style.css">
+    <link rel="stylesheet" href="css/burger-bar.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/footer-style.css">
+    <link rel="stylesheet" href="css/faq-style.css">
+    <link rel="icon" href="images/tab-icon.png">
+    <title>FAQ</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_vjpdyidb.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px;"  loop  autoplay></lottie-player>
+        </div>
+        <nav class="header-navigation">
+            <ul>
+                <li>
+                    <a id="mt" href="index.html">მთავარი</a>
+                </li>
+                <li>
+                    <a id="shes" href="about_me.html">ჩემს შესახებ</a>
+                </li>
+                <li>
+                    <a id="r" href="registration.html">რეგისტრაცია</a>
+                </li>
+                <li>
+                    <a id="f" href="FAQ.html">FAQ</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="burger-bar">
+            <div class="menu-btn"> 
+                <div class="btn-line"></div> 
+                <div class="btn-line"></div> 
+                <div class="btn-line"></div> 
+            </div> 
+            <nav class="menu"> 
+                <div class="menu-branding"> 
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_vjpdyidb.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+                </div>
+                <ul class="menu-nav"> 
+                    <li class="nav-item current"> 
+                        <a href="index.html" class="nav-link mt"> 
+                            მთავარი
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a href="about_me.html" class="nav-link shes"> 
+                            ჩემს შესახებ 
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a href="registration.html" class="nav-link r"> 
+                            რეგისტრაცია
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a href="FAQ.html" class="nav-link f"> 
+                            FAQ
+                        </a> 
+                    </li> 
+                </ul> 
+            </nav> 
+        </div>
+        <div class="lang">
+            <button id="n" class="n" onclick="shevtsvalotEna('ka')">ENG</button>
+        </div>
+    </header>
+    <section>
+        <div class="sec1-wrapper">
+            <div class="rectangle"></div>
+            <div class="title">
+                <h3 class="faq-ttl">ხშირად დასმული კითხვები(FAQs)</h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="faq-wrapper">
+            <button type="button" class="contentis_gamodzroma question1">რა ან ვინ არის ვებ-დეველოპერი?</button>
+            <div  style="z-index:18" class="content">
+                <div class="wrap shekumshva2 fexi fexi1">
+                    <p class="text2">ვებ-დეველოპერი არის ადამიანი. ამიტომ კითხვა რა არაობიექტურია ამასთან მიმართებაში(ყოველი
+                        შემთხვევისთვის მაიკროსოფთის ბოტ პროდუქციას ჯერჯერობით არ შეუძლია ჩაანაცვლოს ცოცხალი ვებ-დეველოპერი).
+                    </p>
+                     <div class="img-wrap">
+                        <div class="rect"></div>
+                        <img src="images/web-battle.jpg" alt="article-img">
+                     </div>
+                </div>
+                <div class="wrap shekumshva3 fexi">
+                    <div class="img-wrap">
+                        <div class="rect color2"></div>
+                        <img src="images/web-dev.png" alt="article-img">
+                     </div>
+                    <p class="text3">
+                        ვეპ-დეველოპერია პროგრამისტი, რომელიც კლიენტისგან ან დიზაინერების ჯგუფისგან იღებს გარკვეული ტიპის დავალებას და კოდის წერით, 
+                        სხვადასხვა ენების გამოყენებით,  აწყობს ვებ-გვერდს. ვებ-დეველოპერის საქმე საკმაოდ რთულია, 
+                        რადგან მათ ევალებათ შეისწავლონ გარკვეული კონფიგურაციით შედგენილი კომპიუტერული ენა და ესაუბრონ ამ ენაზე კომპიუტერს. 
+                    </p>
+                </div>
+                <div class="wrap shekumshva2 fexi fexi2">
+                    <p class="text4">
+                        როგორც ჩემი ძველი ხანში შესული ლექტორი იტყოდა, კომპიუტერი დებილია და მას სჭირდება მისთვის გასაგებ, პრიმიტულ ენაზე საუბარი. 
+                        შესაბამისად ვებ-დეველოპინგი რაღაცით საგიჟეთში მუშაობას ჰგავს, სადაც ათას გონებაშეზღუდულთან გიწევს მათსავე ენაზე კომუნიკაციის დამყარება. 
+                    </p>
+                    <div class="img-wrap">
+                        <div class="rect color3"></div>
+                        <img src="images/crazy-guy.jpg" alt="article-img">
+                     </div>
+                </div>
+            </div>
+            <button type="button" class="contentis_gamodzroma question2">რა ტიპის ვებ-დეველოპერები არსებობენ?</button>
+            <div  style="z-index:17" class="content">
+                <p class="text5" style="margin-top:50px;">
+                    არსებობს სამი სახის ვებ დეველოპერი: თეთრი(Front-end developer), შავი(Back-end developer) და ნაჯვარი(Full-Stack developer):
+                </p>
+                <div class="wrap shekumshva2">
+                    <div class="img-wrap">
+                        <div class="rect color2"></div>
+                        <img src="images/front.jpg" alt="article-img">
+                     </div>
+                    <p class="text6">
+                        1.	Front-end დეველოპერები პასუხისმგებელნი არიან საიტის იმ ნაწილზე, რომელსაც ათვალიერებს  მომხმარებელი, ხალხი,უბრალო მოკვდავი.
+                    </p>
+                </div>
+                <div class="wrap shekumshva3">
+                    <p class="text7">
+                        2.	Back-end დეველოპერს ევალება კოდების წერით გამართოს საიტის მუშაობა და გახადოს უფრო სწრაფი და ეფექტური.
+                    </p>
+                    <div class="img-wrap">
+                        <div class="rect color1"></div>
+                        <img src="images/backend.png" alt="article-img">
+                    </div>
+                </div>
+                <div class="wrap shekumshva2">
+                    <div class="img-wrap">
+                        <div class="rect color3"></div>
+                        <img src="images/full-stack.jpg" alt="article-img">
+                    </div>
+                    <p class="text8">
+                        3.	Full-Stack დეველოპერი ორი კურდღლის დამჭრია, რომელიც ხან იჭერს, ხანაც ვერა, რაც დამოკიდებულია კურდღლის ზომაზე, ნადირობის სტაჟსა და კვალიფიკციაზე .
+                    </p>
+                </div>
+            </div>
+            <button type="button" class="contentis_gamodzroma question3">რას აკეთებს Front-end დეველოპერი?</button>
+            <div  style="z-index:16" class="content">
+                <div class="wrap shekumshva2">
+                    <p class="text9">
+                        Front-end დეველოპერი იღებს გარკვეული ტიპის დიზაინს და მისი ვებ-ვიზუალიზაციისთვის წერს კოდს სხვადასხვა ენაზე. მას ევალება მინიმუმ სამი დაპროგრამების ენის ცოდნა: HTML, CSS  და JavaScript.
+                    </p>
+                    <div class="img-wrap">
+                        <div class="rect color1"></div>
+                        <img src="images/Front_End_Developer.jpg" alt="article-img">
+                    </div>
+                </div>
+                <div class="problemuri3" style="display:flex; flex-direction:column; align-items: center;">
+                    <p class="text10">
+                        HTML საშუალებას გვაძლევს დავამატოთ კონტენტი ვებ-გვერდზე გარკვეულ ელემენტებად დაყოფით. თუ ლინგვისტურ ენებთან ვეცდებით პარალელის გავლებას, შეგვიძლია იგი აღვიქვათ მეტყველების ნაწილად- არსებითი სახელი;<br>
+                        CSS გვეხმარება შექმნილ კონტენტს მივანიჭოთ საჭირო სტილები: ფერები, ზომები და ადგილები. ეს სწორედ ის მომენტია, როცა არსებით სახელს ზედსართავი სახელი სჭირდება აღსაწერად. <br>
+                        JS  კი გვეხმარება აღვწეროთ არსებითი სახელის მოძრაობა ან მდგომარეობა ზმნით. მარტივი მაგალითისთვის, ვამატებთ ინტერაქციულ ღილაკებს  და სხვა ფუნქციონალებს(თუნდაც ამ წყეულ ჩამოკეცვის ღილაკს, რომელზეც ნერვული ქსოველები ვიწყვიტე).
+                    </p>
+                    <img style="margin-top:20px; height:400px;"  class="shesakumshi" src="images/gramatika.png" alt="article-img">
+                </div>
+            </div>
+            <button type="button" class="contentis_gamodzroma question4">როგორ გავხდე ვებ-დეველოპერი?</button>
+            <div  style="z-index:15" class="content">
+               <div style=" margin-top:50px; display: flex; flex-direction: column; align-items: center; justify-content: space-around;">
+                <img src="images/hacker-guy.jpg" alt="article img">
+                <p class="text11" style="margin-top:50px; width:91%;">
+                    სავარაუდოდ, ზემოთ განხილულის წაკითხვისას გაგიჩნდებოდათ კითხვა, როგორ უნდა გახდეთ ვებ-დეველოპერი, რა გზები გაიაროთ და სად უნდა ისწავლოთ. <br><br>
+                    მარტივად რომ ვთქვათ,  ზუსტად განსაზღვრული მეთოდი და ერთადერთი სწორი გზა არ არსებობს. მაგალითად, ვიღაცები ბავშვობიდან კომპიუტრს ესხდენენ და
+                    insert  ელემენტებში ქექვით, ქრაშის ფბს გატეხვის იმედით, არსებული სფერო შეისისხლ-ხორცეს,  რის შემდეგაც მარტივად დაეუფლნენ დაპროგრამების 
+                    პრინციპებს. ვიღაცები 18 წლის ასაკში ფაილის დაზიპვასა და უბრალოდ ფოლდერში ჩაგდებას ვერ ანსხვავებდნენ (მაგალითად მე) , თუმცა   
+                    გარკვეული კურსის დახმარებით, სოლიდური შედეგიც მიიღეს. ზოგიერთები საერთოდაც ფილოლოგები იყვნენ და "კომპიუტერს წიგნი ერჩიათ", თუმცა 40
+                    წლისას დაწყებული კოდის წერით ფრთები გაშალეს და სხვა მრავალი.<br> ყველაფერი ინდივიდუალურ ხასიათზეა დამოუკიდებული- თუ თქვენ ხართ ადამიანი 
+                    რომელსაც შესწევს ძალა მარტო დაჯდეს და არჩიოს დაპროგრამების საფუძვლების pdf საკითხები, უსმინოს ინდოელი ტიპის ტუტორიალებს, ტორენტებზე  არალეგალურად იუდემი 
+                    აკადემიის ვიდეოები დაითრიოს, შეგარგოთ ღმერთმა! სწორედ ესაა პროგრამირება- არარაობიდან რაობის გამოყვანა, ჩალიჩი და შემოქმედება. 
+                    საერთო ჯამში გზა მრვალია, თუმცა, როგორც ნათქვამია ყოველი მათგანი რომში მიდის. 
+                </p>
+               </div>
+            </div>
+            <button type="button" class="contentis_gamodzroma question5">რა შემეძლება მოცემული კურისს გავლის შემდეგ?</button>
+            <div  style="z-index:14" class="content">
+                <div  style="display:flex; flex-direction:column; align-items: center;" >
+                    <div class="wrap shekumshva1">
+                        <p class="text12">
+                            ნურავის ექნება იმის პრეტენზია, რომ შავ კონსოლზე მწვანე კოდების წვიმა წამოვა და ბოსტონის ფილიალს გატეხავს. 
+                        </p>
+                        <div class="img-wrap">
+                            <div class="rect color2"></div>
+                            <img src="images/matrix-code1.jfif" alt="article-img">
+                        </div>
+                    </div>
+                    <p style="margin-top:195px; width:91%;"  class="problemuri3 text13">
+                        რეალურად მოცემულ სფეროს არაფერი აქვს საერთო  კრიპტო-გამოსახულებების ამოხსნის ალგორითმებთან ან მონაცემთა ბაზებთან მსგავს 
+                        სიღრმეზე. თუმცა, მეტაფორულად რომ ვთქვათ,  Front-end კურსი დაგეხმარებათ HTML, CSS და JS საფუძვლების გარკვევაში, ასევე დაეუფლებით 
+                        ძირითად DOM მანიპულაციებს და შეძლებთ შექმნათ დახვეწილი და გამართული ვებ-გვერდი ბოსტონის ფილიალითვის. 
+                    </p>
+                    <img style="height: 390px; margin-top:50px;" src="images/epickGeorgianHackers.PNG" alt="article-img">
+                </div>
+            </div>
+            <button type="button" class="contentis_gamodzroma question6">სად შემიძლია შეძენილი უნარების დემონსტრირება?</button>
+            <div style="z-index:13"  class="content">
+                <div  style="display:flex; flex-direction:column; align-items: center;" >
+                    <div class="wrap">
+                        <div class="img-wrap">
+                            <div class="rect color1"></div>
+                            <img src="images/social-network.jpg" alt="article-img">
+                        </div>
+                        <p class="text14">
+                            კომუნიკაცია და გაზიარების სურვილი ადამიანის იმანენტური მახასიათებელია. სწორედ მისი გამოვლინენებია სხვადასხვა რელიგიურ 
+                            რიტუალებში ზიარების ტრადიციები, მხატვრული ლიტერატურის სახით კონტაქტი მკითხველთან საუკუნეების დიაპაზონით  და თანამედროვე 
+                            ციფრულ ეპოქაში ამან უბიძგა ადამიანს შეექმნა Facebook, Skype, Zoom  სხვა ქსელები(Zoom და teams-ის შემთხვევაში საქმე უნიკალურად გაიძვერულ 
+                            შემთხვევასთან გვაქვს, მაგრამ ნიჩევო) და გამონაკლისი მათ შორის არც პროგრამირებაა.
+                        </p>
+                    </div>
+                    <p class="problemuri2 text15">
+                        შესაბამისად არსებობს github სერვერი, სადაც შეგიძლია 
+                        წვდომა გქონდეს მსოფლიოს გარშემო ნებისმიერი წერტილიდან ნებისმიერი  პროგრამისტის პროდუქტთან, გაუზიარო საკუთარი შემოქმედება სხვებს 
+                        და გამოხატო მოწონება ზოგი პროექტისადმი (რათმქაუნდა  ვინმეს სტალკვა , ჩატაობა და მსგავსი ბანალურობები ძნელად განხორციელებეადია, თუმცა 
+                        არა შეუძლებელი). საერთო ჯამში კი შეგიძლია იქცე იმ დიდი სოციალური ქსელის ნაწილად, რომელსაც კოდის წერის ხელოვნება აერთიანებს. 
+                        მთავარია  გეყოს ნებისყოფა, როცა გნიდა სერვერი ფაილის ატვირთვისას 404 error-ს ამოგიგდებს ან ცვლილების შეტანის ასახვას საუკუნეს მოანდომებს.
+                    </p>
+                    <img  style="margin-top:50px" src="images/github.jpg" alt="article-img">
+                </div> 
+            </div>
+            <button type="button" class="contentis_gamodzroma question7">როგორ ვიშოვო სამსახური ვებ-დეველოპინგში?</button>
+            <div style="z-index:12" class="content problemuri">
+                <div  style="display:flex; flex-direction:column; align-items: center;" >
+                    <p class="text16" style="width:85%; margin-top:30px;">
+                        მოცემული კითხვა განეკუთვნება  იმ კითხვების სიას, რომელსაც 1 million dollars question -ად მოიხსენიებენ, ვინაიდან ყველა დამწყები 
+                        დეველოპერი განიცდის ამ პრობლემას სასწავლო კურსის დასრულების შემდეგ. გამოსავალი მდგომარეობს იმაში, რომ დამსაქმებელმა დაინახოს 
+                        რეალურად ის თუ რა შეგიძლიათ, ამაზე კი დიპლომებსა და სერთიფიკატებზე უკეთ თქვნს მიერ შექმნილი პროექტები ისაუბრებენ. <br>
+                        "ხიპო" პროგრამისტის შემთხვევაში ცხოვრება მარტივია: სხვისი გიტიდან ან stack overflow-დან ამოკოპირებული კოდით შექმნილ პროგრამას 
+                        წარუდგენენ ცალტვინა მომღიმარ ეიჩარს, სადაც ორატორული მონაცმეებით გაბრიყვებული დამსაქმებელი ეგრევე გასცემს ადგილს- აქედან იწყება ბაგებით 
+                        გატენილი პროდუქტის შექმნა, ცალკე კადრების მოძიება მათ გამოსასწორებლად და ფულის უაზრო ფლანგვა.   <br>თუ თქვენ ფიქრობთ, რომ ერთი 
+                        ან ორი კურსი გეყოფათ საქართველოში დასასაქმებლად, ცდებით- იმისათვის რომ გახდეთ ჯუნიორ დეველოპერი, მნიშვნელოვანია გქონდეთ 
+                        მინიმუმ 5 წლიანი IT გამოცდილება, როგორც fron-tend დეველოპერი ფლობდეთ დაპროგრამების ისეთ ენებს რომელსაც ცხონებული შემქმნელებიც 
+                        არ იყენებდნენ კარიერის ბოლო წლებში( c , c++ ...), ხარისხი დაიცვათ საერთაშორისო სამართალზე, ნამსახურები იყოთ ავღანეთში ან ერაყში, ხოლო  კომუნიკაციის უნარ-ჩვევებით საგარეო საქმეთა სამინისტროს მოხელეს ედრებოდეთ: ამ შემთხვევაში კი მიიღებთ თქვენს 
+                        dream job-ს, სადაც დაგიქირავებენ ბეტონის და მანქანის ნაწილების მწარმოებელი ქარხანის ვებ-გვერდის ასაწყობად და შეიძლება ბონუსებიც დაგირიცხონ
+                        (არ მოგესმათ, სწორედაც რომ შეიძლება, თანაც უკიდურესად დაბალი ალბათობით). <br>დიახ, ეს საქართველოა და აქ არ იციან კონკრეტული 
+                        სფეროს სპეციალისტის არსებობის შესახებ -აქ სჭირდებათ ყოვლისშემძლე ღმერთები, თუმცა მონოთეისტური რელიგიების მიხედვით ღმერთი ერთია და მას 
+                        ალაჰი, იაჰვე, ვიშნუა და ა.შ ჰქვია, ხოლო ადამიანი წვალებისთვის შექმნა და დაბადების წიგნში დაუბარა:მიწა ჩიჩქნე და ოფლით მოიყვანე პურიო.  <br>
+                        გარდა ამისა არსებობს მეორე გზა ე.წ freelancing, რომლის დროსაც შენი ანაზღაურება შეუზღუდავია და დამოკიდებულია პროექტის 
+                        სირთულეზე (რათქმაუნდა კვლავ იდეაში). ჩვენთან მთავარი წესია იცოდე ვისთან დაიჭირო საქმე და ვისთან არა- თუკი ვინმე გეტყვის, რომ 
+                        რეალურად, თურმე საათობრივი ანაზღაურების ნაცვლად სრული ვებ-გვერდითვის იხდის 150 ლარს, მის დღემში არ დაეკონტაქტო, დასპამე და 
+                        შავ სიაში ჩააგდე. ჯანდაბას, ცხოვრება უსამართლოა, თუ სოციალური ქსელის ადმინისტრაციამ არ დაბლოკა, ღმერთი არ დაინდობს და სიკვდილის 
+                        შემდეგ ჯოჯოხეთში გაუშვებს. საბოლოოდ კი მთავარია იყო კატეგორიული და დაუნდობელი. თუ მუჰამადთან არ მივა მთა, მთა მიბრძანდება მუჰამადთან! 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-top:130px; margin-bottom:600px;">
+        <div class="slide-sec-container">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="images/bakcegnd-guy.jpg" alt="slide-show-image">
+                  <div class="text">Back-End</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="images/frontend2.jfif" alt="slide-show-image">
+                  <div class="text">Web-Developing</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="images/frontend3.jfif"  alt="slide-show-image"> 
+                  <div class="text">Front-End</div>
+                </div> 
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/meme1.jpg"   alt="slide-show-image"> 
+                    <div class="text">Rules</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+                <div class="dots">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contact-list">
+            <ul>
+                <li>
+                    <a class="fb" href="https://www.facebook.com/nik.olla.5832/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="phone" href="tel:+995579120683" target="_blank">
+                        <i class="fas fa-mobile-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="mail" href="mailto:nlukava2002@gmail.com?subject=The%20subject%20of%20the%20mail" target="_blank">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="github" href="https://github.com/Nikolla-L" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="body1"></div>
+        <script>
+            var coll = document.getElementsByClassName("contentis_gamodzroma");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            }
+            //burgera
+            
+            const fullBody = 
+            document.querySelector(".body1"); 
+
+            const menuBtn = 
+            document.querySelector(".menu-btn"); 
+
+            const menu = 
+            document.querySelector(".menu"); 
+
+            const menuNav = 
+            document.querySelector(".menu-nav"); 
+
+            const menuBranding = 
+            document.querySelector(".menu-branding"); 
+
+            const navItems = 
+            document.querySelectorAll(".nav-item"); 
+            let showMenu = false; 
+
+            menuBtn.addEventListener("click", toggleMenu); 
+
+            function toggleMenu() { 
+            if (!showMenu) { 
+                menuBtn.classList.add("close");
+                fullBody.classList.add("show"); 
+                menu.classList.add("show"); 
+                menuNav.classList.add("show"); 
+                menuBranding.classList.add("show");
+                navItems.forEach((item) => 
+                    item.classList.add("show")); 
+                showMenu = true; 
+            } else { 
+                menuBtn.classList.remove("close"); 
+                fullBody.classList.remove("show"); 
+                menu.classList.remove("show"); 
+                menuNav.classList.remove("show"); 
+                menuBranding.classList.remove("show");
+                navItems.forEach((item) => 
+                    item.classList.remove("show")); 
+                showMenu = false; 
+            } 
+            } 
+            
+            const bodyClass = document.querySelector('.body1');
+            bodyClass.addEventListener("click", function chakecva(){
+            if(showMenu){
+                menuBtn.classList.remove("close"); 
+                fullBody.classList.remove("show"); 
+                menu.classList.remove("show"); 
+                menuNav.classList.remove("show"); 
+                menuBranding.classList.remove("show");
+                navItems.forEach((item) => 
+                item.classList.remove("show")); 
+                showMenu = false;
+            } 
+            }); 
+            //enebis shetsvla
+            function shevtsvalotEna(language) {
+                let ena = document.querySelector('.n');
+                let title = document.querySelector('.ttl');
+                let nav01 = document.getElementById('mt');
+                let nav02 = document.getElementById('shes');
+                let nav03 = document.getElementById('r');
+                let nav04 = document.getElementById('f');
+                let nav1 = document.querySelector('.mt'); 
+                let nav2 = document.querySelector('.shes');
+                let nav3 = document.querySelector('.r');
+                let nav4 = document.querySelector('.f');
+                let text1 = document.querySelector('.faq-ttl');
+                let question1 = document.querySelector('.question1');
+                let question2 = document.querySelector('.question2');
+                let question3 = document.querySelector('.question3');
+                let question4 = document.querySelector('.question4');
+                let question5 = document.querySelector('.question5');
+                let question6 = document.querySelector('.question6');
+                let question7 = document.querySelector('.question7');
+                let text2 = document.querySelector('.text2');
+                let text3 = document.querySelector('.text3');
+                let text4 = document.querySelector('.text4');
+                let text5 = document.querySelector('.text5');
+                let text6 = document.querySelector('.text6');
+                let text7 = document.querySelector('.text7');
+                let text8 = document.querySelector('.text8');
+                let text9 = document.querySelector('.text9');
+                let text10 = document.querySelector('.text10');
+                let text11 = document.querySelector('.text11');
+                let text12 = document.querySelector('.text12');
+                let text13 = document.querySelector('.text13');
+                let text14 = document.querySelector('.text14');
+                let text15 = document.querySelector('.text15');
+                let text16 = document.querySelector('.text16');
+                if (language === "eng") {
+                    document.getElementById( "n" ).setAttribute( "onClick", "javascript: shevtsvalotEna('ka');" )
+                    ena.innerHTML = "GEO";
+                    nav01.innerHTML = "Home";
+                    nav02.innerHTML = "About Me";
+                    nav03.innerHTML = "Sign Up";
+                    nav04.innerHTML = "FAQ";
+                    nav1.innerHTML = "Home";
+                    nav2.innerHTML = "About Me";
+                    nav3.innerHTML = "Sign Up";
+                    nav4.innerHTML = "FAQ";
+                    text1.innerHTML = "Frequently Asked Questions (FAQs)";
+                    question1.innerHTML = "What the hell is Web Developer?";
+                    question2.innerHTML = "What kind of web developers are there?";
+                    question3.innerHTML = "What does the Front-end developer do?";
+                    question4.innerHTML = "How do I become a web developer?";
+                    question5.innerHTML = "What can I do after completing this course?"
+                    question6.innerHTML = "Where am I able to demonstrate the skills I have acquired?";
+                    question7.innerHTML = "How do I get a Web Development job?"
+                    text2.innerHTML = "A Web Developer is a human being. So the question 'what' isn't relevant in this case (in any other case, at the moment Microsoft's products can't replace alive web developer).";
+                    text3.innerHTML = "A Web Developer is a programmer who receives a certain type of task from a client or a group of designers and writes code by using different languages to create a web page. The job of a Web Developer is quite difficult as they are required to learn a computer language composed of a certain configuration and speak that language to the computer.";
+                    text4.innerHTML = "As my old C++ programming lecturer would say, a computer is an idiot   thing and it needs to speak a primitive language that it understands. Consequently, to work as a Web Developer is like working in psychiatric clinic, where you have to communicate with a thousand people with mental disabilities in their own language.";
+                    text5.innerHTML = "There are three types of web developers: White (Front-end developer), Black (Back-end developer) and Gray(Full-Stack developer):";
+                    text6.innerHTML = "1. Front-end developers are responsible for the part of the site that is viewed by users, people, just mortals.";
+                    text7.innerHTML = "2. The back-end developer is responsible for writing the code to make the site work and make it faster and more efficient.";
+                    text8.innerHTML = "3. A full stack web developer is a person who can develop both client and server software."
+                    text9.innerHTML = "The front-end developer gets a certain type of design and writes the code for its web visualization in different languages. She/he requires knowledge of at least three programming languages: HTML, CSS and JavaScript.";
+                    text10.innerHTML = 'HTML allows us to add content on a web page by dividing as an different elements. If we try to compare with linguistic languages, we can perceive it as part of grammar - a noun; <br>  CSS helps us assign the required styles to the created content: colors, sizes , fonts etc. This is the moment when a noun needs an adjective to describe it. <br>  JS  is used to describe the movement or condition of a noun with a verb. For a simple example, we add interactive buttons and other functionality (even this damn burger-bar on which I fucked myself).';
+                    text11.innerHTML = 'Most likely, while reading the above, you will be wondering how to become a web developer, what paths should you take  or where  should you learn. <br> <br> Its obvious that there is no definite method and the only right way. For example, some people have been sitting at a computer since childhood and, by digging inside insert elements with hoping to hack the someones FB account, after which they have easily mastered the principles of programming. Some people at the age of 18 even did not know the difference between zipping file and just putting it in a folder (for example me), but with the help of a certain course, they got a great stages. Someone was just kind of "philologists" and "chose a book on the computer", but after  starting code at the age of 40 spread their wings and so more. <br> Everything depends on the individual kind of mind - If you are able to sit on Tutorials, get illegally drag videos of Yudem Academy on torrents, good luck! This is what programming is all about - get everything from nothing,  overthinking, overworking with yourself and creativity. In conclusion the road is many and different, however, as it is said each of them goes to Rome.';
+                    text12.innerHTML = 'No One should expect that a rain of green codes will fall on the black console and hack the Boston bank branch.';
+                    text13.innerHTML = "<br><br>Actually, Front-end field  has nothing in common with crypto-equations algorithms or databases at similar depths. However, metaphorically , the Front-end course will help you to understand the basics of HTML, CSS and JS, you will also master the basic DOM manipulations and you'll be able to create a responsive and well-organized website for the Boston branch.";
+                    text14.innerHTML = "Communication and the desire to share are an immanent basics of man. It has many manifestations in the traditions of communion in various religious rituals, contact with readers in the form of literature over a period of centuries, and in the modern digital age it has influenced people to create something big- Facebook, Skype, Zoom and other networks (not in the case of Zoom and teams, these popularity made ba fucking corona viruse ). Also there is  programming among them.";
+                    text15.innerHTML = 'So, there is a GitHub server where you can access ant look at the product of any programmer from anywhere in the world, share your creations with others and like for some projects (of course, it is difficult to chat with someone or chrash on someone from GitHub account, but not impossible). In general, you can become part of the great social network what based on the art of "code writing".The main point is to have the great motivation and strong  will of learning programming.';
+                    text16.innerHTML = 'This is the most asked question from part of a list of "$ 1 million dollars question", about what every developer struggle who has nearly done his bootcamp. The solution is to show  the employer what you can actually do, and the projects you create will speak better than diplomas and certifications about u. <br> In the case of a "Tipically_guy" programmer, life is simple: a program created with code copied from someones git or stack overflow is presented to  one dimentional mind emploier, where the employer, exhausted by the oratorical data, gives a job. <br> If you think you will take and complete one or two courses to get a job in Georgia, you are mistaken, really fucking mistaken- to become a junior developer, it is important to have at least 5 years of IT experience as a fron-tend developer with programming languages ​​not used by their creators in recent years ( c, c ++ ...), degree in international law, served in Afghanistan or Iraq: In this case, you will get your dream job, where you will be hired by the web site of new car parts company. Also, in this case you can get bonuses (you do not understand, that is exactly what can may be happen, with an extremely low probability). <br> Yes, this is Georgia and they do not know anything about a specialist in a specific field - they need old greek gods , but according to the monotheistic religions, God is only one and he is called Allah, Yahweh, Vishnu, etc.  <br> In addition there is another way called freelancing, in which your pay is unlimited and depends on the difficulty of the project you working on (of course still in the idea). The main rule with us is to know with whom to catch the case and with whom not - if someone tells you that atually, instead of hourly pay he pays 150 GEL for the full work, do not contact him during the life, delete from faceboock friends and spam him. Fuck, life is unfair and  if the administration of the social network does not block it, God will not have mercy on him and send him to hell after death. In the end, the main thing was to be categorical and determined. If Muhamad does not go to the mountain, the mountain will go to Muhammad!';
+                }
+                 else {
+                    document.getElementById( "n" ).setAttribute( "onClick", "javascript: shevtsvalotEna('eng');" )
+                    ena.innerHTML = "ENG";
+                    nav01.innerHTML = "მთავარი";
+                    nav02.innerHTML = "ჩემს შესახებ";
+                    nav03.innerHTML = "რეგისტრაცია";
+                    nav04.innerHTML = "FAQ";
+                    nav1.innerHTML = "მთავარი";
+                    nav2.innerHTML = "ჩემს შესახებ";
+                    nav3.innerHTML = "რეგისტრაცია";
+                    nav4.innerHTML = "FAQ";
+                    text1.innerHTML = "ხშირად დასმული კითხვები(FAQs)"
+                    question1.innerHTML = "რა ან ვინ არის ვებ-დეველოპერი?"
+                    question2.innerHTML = "რა ტიპის ვებ-დეველოპერები არსებობენ?";
+                    question3.innerHTML = "რას აკეთებს Front-end დეველოპერი?";
+                    question4.innerHTML = "როგორ გავხდე ვებ-დეველოპერი?";
+                    question5.innerHTML = "რა შემეძლება მოცემული კურისს გავლის შემდეგ?";
+                    question6.innerHTML = "სად შემიძლია შეძენილი უნარების დემონსტრირება?";
+                    question7.innerHTML = "როგორ ვიშოვო სამსახური ვებ-დეველოპინგში?";
+                    text2.innerHTML = "ვებ-დეველოპერი არის ადამიანი. ამიტომ კითხვა რა არაობიექტურია ამასთან მიმართებაში(ყოველი შემთხვევისთვის მაიკროსოფთის ბოტ პროდუქციას ჯერჯერობით არ შეუძლია ჩაანაცვლოს ცოცხალი ვებ-დეველოპერი)."
+                    text3.innerHTML = "ვეპ-დეველოპერია პროგრამისტი, რომელიც კლიენტისგან ან დიზაინერების ჯგუფისგან იღებს გარკვეული ტიპის დავალებას და კოდის წერით, სხვადასხვა ენების გამოყენებით,  აწყობს ვებ-გვერდს. ვებ-დეველოპერის საქმე საკმაოდ რთულია, რადგან მათ ევალებათ შეისწავლონ გარკვეული კონფიგურაციით შედგენილი კომპიუტერული ენა და ესაუბრონ ამ ენაზე კომპიუტერს. ";
+                    text4.innerHTML = "როგორც ჩემი ძველი ხანში შესული ლექტორი იტყოდა, კომპიუტერი დებილია და მას სჭირდება მისთვის გასაგებ, პრიმიტულ ენაზე საუბარი. შესაბამისად ვებ-დეველოპინგი რაღაცით საგიჟეთში მუშაობას ჰგავს, სადაც ათას გონებაშეზღუდულთან გიწევს მათსავე ენაზე კომუნიკაციის დამყარება. ";
+                    text5.innerHTML = " არსებობს სამი სახის ვებ დეველოპერი: თეთრი(Front-end developer), შავი(Back-end developer) და ნაჯვარი(Full-Stack developer):";
+                    text6.innerHTML = "1.	Front-end დეველოპერები პასუხისმგებელნი არიან საიტის იმ ნაწილზე, რომელსაც ათვალიერებს  მომხმარებელი, ხალხი,უბრალო მოკვდავი.";
+                    text7.innerHTML = "2.	Back-end დეველოპერს ევალება კოდების წერით გამართოს საიტის მუშაობა და გახადოს უფრო სწრაფი და ეფექტური.";
+                    text8.innerHTML = " 3.	Full-Stack დეველოპერი ორი კურდღლის დამჭრია, რომელიც ხან იჭერს, ხანაც ვერა, რაც დამოკიდებულია კურდღლის ზომაზე, ნადირობის სტაჟსა და კვალიფიკციაზე .";
+                    text9.innerHTML = "Front-end დეველოპერი იღებს გარკვეული ტიპის დიზაინს და მისი ვებ-ვიზუალიზაციისთვის წერს კოდს სხვადასხვა ენაზე. მას ევალება მინიმუმ სამი დაპროგრამების ენის ცოდნა: HTML, CSS  და JavaScript.";
+                    text10.innerHTML = "HTML საშუალებას გვაძლევს დავამატოთ კონტენტი ვებ-გვერდზე გარკვეულ ელემენტებად დაყოფით. თუ ლინგვისტურ ენებთან ვეცდებით პარალელის გავლებას, შეგვიძლია იგი აღვიქვათ მეტყველების ნაწილად- არსებითი სახელი;<br> CSS გვეხმარება შექმნილ კონტენტს მივანიჭოთ საჭირო სტილები: ფერები, ზომები და ადგილები. ეს სწორედ ის მომენტია, როცა არსებით სახელს ზედსართავი სახელი სჭირდება აღსაწერად. <br> JS  კი გვეხმარება აღვწეროთ არსებითი სახელის მოძრაობა ან მდგომარეობა ზმნით. მარტივი მაგალითისთვის, ვამატებთ ინტერაქციულ ღილაკებს  და სხვა ფუნქციონალებს(თუნდაც ამ წყეულ ჩამოკეცვის ღილაკს, რომელზეც ნერვული ქსოველები ვიწყვიტე).";
+                    text11.innerHTML = 'სავარაუდოდ, ზემოთ განხილულის წაკითხვისას გაგიჩნდებოდათ კითხვა, როგორ უნდა გახდეთ ვებ-დეველოპერი, რა გზები გაიაროთ და სად უნდა ისწავლოთ. <br><br> მარტივად რომ ვთქვათ,  ზუსტად განსაზღვრული მეთოდი და ერთადერთი სწორი გზა არ არსებობს. მაგალითად, ვიღაცები ბავშვობიდან კომპიუტრს ესხდენენ და insert  ელემენტებში ქექვით, ქრაშის ფბს გატეხვის იმედით, არსებული სფერო შეისისხლ-ხორცეს,  რის შემდეგაც მარტივად დაეუფლნენ დაპროგრამების  პრინციპებს. ვიღაცები 18 წლის ასაკში ფაილის დაზიპვასა და უბრალოდ ფოლდერში ჩაგდებას ვერ ანსხვავებდნენ (მაგალითად მე) , თუმცა გარკვეული კურსის დახმარებით, სოლიდური შედეგიც მიიღეს. ზოგიერთები საერთოდაც ფილოლოგები იყვნენ და "კომპიუტერს წიგნი ერჩიათ", თუმცა 40 წლისას დაწყებული კოდის წერით ფრთები გაშალეს და სხვა მრავალი.<br> ყველაფერი ინდივიდუალურ ხასიათზეა დამოუკიდებული- თუ თქვენ ხართ ადამიანი  რომელსაც შესწევს ძალა მარტო დაჯდეს და არჩიოს დაპროგრამების საფუძვლების pdf საკითხები, უსმინოს ინდოელი ტიპის ტუტორიალებს, ტორენტებზე  არალეგალურად იუდემი აკადემიის ვიდეოები დაითრიოს, შეგარგოთ ღმერთმა! სწორედ ესაა პროგრამირება- არარაობიდან რაობის გამოყვანა, ჩალიჩი და შემოქმედება. საერთო ჯამში გზა მრვალია, თუმცა, როგორც ნათქვამია ყოველი მათგანი რომში მიდის. ';
+                    text12.innerHTML = "ნურავის ექნება იმის პრეტენზია, რომ შავ კონსოლზე მწვანე კოდების წვიმა წამოვა და ბოსტონის ფილიალს გატეხავს. ";
+                    text13.innerHTML = "<br>რეალურად მოცემულ სფეროს არაფერი აქვს საერთო  კრიპტო-გამოსახულებების ამოხსნის ალგორითმებთან ან მონაცემთა ბაზებთან მსგავს სიღრმეზე. თუმცა, მეტაფორულად რომ ვთქვათ,  Front-end კურსი დაგეხმარებათ HTML, CSS და JS საფუძვლების გარკვევაში, ასევე დაეუფლებით ძირითად DOM მანიპულაციებს და შეძლებთ შექმნათ დახვეწილი და გამართული ვებ-გვერდი ბოსტონის ფილიალითვის. "
+                    text14.innerHTML = "კომუნიკაცია და გაზიარების სურვილი ადამიანის იმანენტური მახასიათებელია. სწორედ მისი გამოვლინენებია სხვადასხვა რელიგიურ  რიტუალებში ზიარების ტრადიციები, მხატვრული ლიტერატურის სახით კონტაქტი მკითხველთან საუკუნეების დიაპაზონით  და თანამედროვე  ციფრულ ეპოქაში ამან უბიძგა ადამიანს შეექმნა Facebook, Skype, Zoom  სხვა ქსელები(Zoom და teams-ის შემთხვევაში საქმე უნიკალურად გაიძვერულ შემთხვევასთან გვაქვს, მაგრამ ნიჩევო) და გამონაკლისი მათ შორის არც პროგრამირებაა.";
+                    text15.innerHTML = "შესაბამისად არსებობს github სერვერი, სადაც შეგიძლია  წვდომა გქონდეს მსოფლიოს გარშემო ნებისმიერი წერტილიდან ნებისმიერი  პროგრამისტის პროდუქტთან, გაუზიარო საკუთარი შემოქმედება სხვებს  და გამოხატო მოწონება ზოგი პროექტისადმი (რათმქაუნდა  ვინმეს სტალკვა , ჩატაობა და მსგავსი ბანალურობები ძნელად განხორციელებეადია, თუმცა  არა შეუძლებელი). საერთო ჯამში კი შეგიძლია იქცე იმ დიდი სოციალური ქსელის ნაწილად, რომელსაც კოდის წერის ხელოვნება აერთიანებს.  მთავარია  გეყოს ნებისყოფა, როცა გნიდა სერვერი ფაილის ატვირთვისას 404 error-ს ამოგიგდებს ან ცვლილების შეტანის ასახვას საუკუნეს მოანდომებს.";
+                    text16.innerHTML = 'მოცემული კითხვა განეკუთვნება  იმ კითხვების სიას, რომელსაც 1 million dollars question -ად მოიხსენიებენ, ვინაიდან ყველა დამწყები დეველოპერი განიცდის ამ პრობლემას სასწავლო კურსის დასრულების შემდეგ. გამოსავალი მდგომარეობს იმაში, რომ დამსაქმებელმა დაინახოს   რეალურად ის თუ რა შეგიძლიათ, ამაზე კი დიპლომებსა და სერთიფიკატებზე უკეთ თქვნს მიერ შექმნილი პროექტები ისაუბრებენ. <br>  "ხიპო" პროგრამისტის შემთხვევაში ცხოვრება მარტივია: სხვისი გიტიდან ან stack overflow-დან ამოკოპირებული კოდით შექმნილ პროგრამას   წარუდგენენ ცალტვინა მომღიმარ ეიჩარს, სადაც ორატორული მონაცმეებით გაბრიყვებული დამსაქმებელი ეგრევე გასცემს ადგილს- აქედან იწყება ბაგებით   გატენილი პროდუქტის შექმნა, ცალკე კადრების მოძიება მათ გამოსასწორებლად და ფულის უაზრო ფლანგვა.   <br>თუ თქვენ ფიქრობთ, რომ ერთი   ან ორი კურსი გეყოფათ საქართველოში დასასაქმებლად, ცდებით- იმისათვის რომ გახდეთ ჯუნიორ დეველოპერი, მნიშვნელოვანია გქონდეთ  მინიმუმ 5 წლიანი IT გამოცდილება, როგორც fron-tend დეველოპერი ფლობდეთ დაპროგრამების ისეთ ენებს რომელსაც ცხონებული შემქმნელებიც  არ იყენებდნენ კარიერის ბოლო წლებში( c , c++ ...), ხარისხი დაიცვათ საერთაშორისო სამართალზე, ნამსახურები იყოთ ავღანეთში ან ერაყში, ხოლო  კომუნიკაციის უნარ-ჩვევებით საგარეო საქმეთა სამინისტროს მოხელეს ედრებოდეთ: ამ შემთხვევაში კი მიიღებთ თქვენს  dream job-ს, სადაც დაგიქირავებენ ბეტონის და მანქანის ნაწილების მწარმოებელი ქარხანის ვებ-გვერდის ასაწყობად და შეიძლება ბონუსებიც დაგირიცხონ  (არ მოგესმათ, სწორედაც რომ შეიძლება, თანაც უკიდურესად დაბალი ალბათობით). <br>დიახ, ეს საქართველოა და აქ არ იციან კონკრეტული  სფეროს სპეციალისტის არსებობის შესახებ -აქ სჭირდებათ ყოვლისშემძლე ღმერთები, თუმცა მონოთეისტური რელიგიების მიხედვით ღმერთი ერთია და მას   ალაჰი, იაჰვე, ვიშნუა და ა.შ ჰქვია, ხოლო ადამიანი წვალებისთვის შექმნა და დაბადების წიგნში დაუბარა:მიწა ჩიჩქნე და ოფლით მოიყვანე პურიო.  <br> გარდა ამისა არსებობს მეორე გზა ე.წ freelancing, რომლის დროსაც შენი ანაზღაურება შეუზღუდავია და დამოკიდებულია პროექტის   სირთულეზე (რათქმაუნდა კვლავ იდეაში). ჩვენთან მთავარი წესია იცოდე ვისთან დაიჭირო საქმე და ვისთან არა- თუკი ვინმე გეტყვის, რომ  რეალურად, თურმე საათობრივი ანაზღაურების ნაცვლად სრული ვებ-გვერდითვის იხდის 150 ლარს, მის დღემში არ დაეკონტაქტო, დასპამე და შავ სიაში ჩააგდე. ჯანდაბას, ცხოვრება უსამართლოა, თუ სოციალური ქსელის ადმინისტრაციამ არ დაბლოკა, ღმერთი არ დაინდობს და სიკვდილის შემდეგ ჯოჯოხეთში გაუშვებს. საბოლოოდ კი მთავარია იყო კატეგორიული და დაუნდობელი. თუ მუჰამადთან არ მივა მთა, მთა მიბრძანდება მუჰამადთან! ';
+                 }
+                }
+        </script>
+</body>
+</html>

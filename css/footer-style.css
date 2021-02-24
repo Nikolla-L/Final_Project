@@ -1,0 +1,92 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+footer{
+	width:100%;
+	height:300px;
+	padding-top:150px;
+}
+.contact-list{
+	margin:0 auto;
+	margin-bottom:30px;
+	width:500px;
+	border:2px solid rgba(255, 255, 255, 0.178);
+	height:120px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-transition:1.49s;
+	-o-transition:1.49s;
+	transition:1.49s;
+}
+.contact-list ul{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	height:60px;
+	margin-top:20px;
+}
+.contact-list a i{
+	color:rgba(206, 195, 195, 0.884);
+	font-size:50px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.contact-list::after{
+	text-align:center;
+	content:'©2021 Nikolla-L | იდეაში ყველა უფლება დაცულია';
+	color:rgb(219, 253, 255);
+	font:18px poppins, BPG Boxo-Boxo;
+	margin: 0 auto;
+}
+.contact-list:hover{
+	background-color:rgba(255, 255, 255, 0.178);
+	-webkit-box-shadow:0 8px 6px -6px black;
+	        box-shadow:0 8px 6px -6px black;
+}
+.fb:hover >  i{
+	color:#4267B2;
+}
+.phone:hover > i{
+	color:rgb(17, 255, 37);
+}
+.mail:hover > i{
+	color:rgb(224, 65, 65);
+}
+.github:hover > i{
+	color:rgb(158, 77, 233);
+}
+.contact-list:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -500%;
+	width: 100%;
+	height: 100%;
+	background: -o-linear-gradient(330deg,transparent, rgba(241, 255, 51, 0.534), transparent);
+	background: linear-gradient(120deg,transparent, rgba(241, 255, 51, 0.534), transparent);
+	-webkit-transition: all 650ms;
+	-o-transition: all 650ms;
+	transition: all 650ms;
+  }
+  .contact-list{
+	position: relative;
+	overflow: hidden;
+  }
+  .contact-list:hover:before {
+	left: 100%;
+  }

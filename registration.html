@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="front-end course">
+    <meta name="keywords" content="online front-end, online academy, niko's final project, racxa gaugebroba">
+    <meta name="author" content="Nikolla-L">
+    <meta property="og:url"                content="https://github.com/Nikolla-L" />
+    <meta property="og:type"               content="online academy page" />
+    <meta property="og:title"              content="Front-End academy" />
+    <meta property="og:description"        content="Online Academy" />
+    <meta property="og:image"              content="https://dvg5hr78c8hf1.cloudfront.net/2016/06/21/15/24/53/f26db3ab-a04e-4d83-896d-d0d596d913f8/1*J7NZVHjie32udLRnbTEruA.png">
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/burger-bar.css">
+    <link rel="stylesheet" href="css/footer-style.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="icon" href="images/tab-icon.png">
+    <title class="ttl">რეგისტრაცია</title>
+</head>
+<body>
+    <header>
+        <div class="burger-bar">
+            <div class="menu-btn"> 
+                <div class="btn-line"></div> 
+                <div class="btn-line"></div> 
+                <div class="btn-line"></div> 
+            </div> 
+            <nav class="menu"> 
+                <div class="menu-branding"> 
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_vjpdyidb.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+                </div>
+                <ul class="menu-nav"> 
+                    <li class="nav-item current"> 
+                        <a href="index.html" class="nav-link mt"> 
+                            მთავარი
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a href="about_me.html" class="nav-link shes"> 
+                            ჩემს შესახებ 
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a href="registration.html" class="nav-link r"> 
+                            რეგისტრაცია
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a href="FAQ.html" class="nav-link f"> 
+                            FAQ
+                        </a> 
+                    </li> 
+                </ul> 
+            </nav> 
+        </div>
+        <div class="lang">
+            <button id="n" class="n" onclick="shevtsvalotEna('ka')">ENG</button>
+        </div>
+    </header>
+    <section>
+        <div class="form-wrapper">
+            <div class="user-icon">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </div>
+            <h3 class="rr">რეგისტრაცია</h3>
+            <form class="registration-form" action="sacxa-phpshi-romelic-gmertma-utskis-rodis-aetskoba">
+                <div class="inputs">
+                    <div class="input-wrapper">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="user-name" name="user-name" placeholder="მომხმარებლის სახელი"  title="თქვენი სახელი?" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="email"  id="email" name="email" placeholder="E-mail" title="e-mail?" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input type="password" id="paroli" name="paroli" placeholder="პაროლი"  onkeyup='validatsia(), shemotsmeba()' pattern="(?=.*[a-z]){8,}"  title="უნდა შეიცავდეს მინიმუმ 8 სიმბოლოს და ერთს მაინც რიცხვს" required>
+                        <span id='amodzroma'></span>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input type="password" id="confirm_paroli" name="confirm_paroli" onkeyup='shemotsmeba(), parolChekeri()' placeholder="ხელახლა შეიყვანეთ პაროლი" pattern='' title="ზუსტად უნდა ემთხვეოდეს პაროლს" required>
+                        <span id='amodzroma1'></span>
+                    </div>
+                </div>
+                <div class="button-wrapper">
+                    <div class="target inner bg4"></div>
+                    <button type="button" class="text">
+                        რეგისტრაცია
+                    </button>
+                </div>
+            </form>
+            <div class="mini-divider"></div>
+            <div class="sign-up">
+                <div class="sign-up-with facebook">
+                    <button class="s-f">  
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        შემოგვიერთდი Facebook-ით
+                    </button>
+                </div>
+                <div class="sign-up-with g">
+                    <button class="s-g">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        შემოგვიერთდი Google-ით
+                    </button>
+                </div>
+                <div class="sign-up-with git">
+                    <button class="s-git">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        შემოგვიერთდი GitHub-ით
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contact-list">
+            <ul>
+                <li>
+                    <a class="fb" href="https://www.facebook.com/nik.olla.5832/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="phone" href="tel:+995579120683" target="_blank">
+                        <i class="fas fa-mobile-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="mail" href="mailto:nlukava2002@gmail.com?subject=The%20subject%20of%20the%20mail" target="_blank">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="github" href="https://github.com/Nikolla-L" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="body1"></div>
+    <script src="js/script.js"></script>
+    <script>
+        //confirm paroli
+        let shemotsmeba = function() {
+            if (document.getElementById('confirm_paroli').value ==
+                document.getElementById('paroli').value) {
+                document.getElementById('amodzroma1').style.color = 'green';
+                document.getElementById('amodzroma1').innerHTML = '&#10004;';
+            } else {
+                document.getElementById('amodzroma1').style.color = 'red';
+                document.getElementById('amodzroma1').innerHTML = '&#10008;';
+            }
+        }
+        //parolis dagoimeba
+        let numbers = /[0-9]/g;
+        let validatsia = function(){
+            if(document.getElementById('paroli').value.match(numbers) && document.getElementById('paroli').value.length>=8){
+                document.getElementById('amodzroma').style.color = 'green';
+                document.getElementById('amodzroma').innerHTML = '&#10003;';
+            } else {
+                document.getElementById('amodzroma').style.color = 'red';
+                document.getElementById('amodzroma').innerHTML = '&#10007;';
+            }
+        }
+        //pattern dayeneba
+        let parolChekeri = function(){
+            document.getElementById('confirm_paroli').pattern  = document.getElementById('paroli').value ;
+        }
+        //Button sakitkhi
+        const buttons = document.querySelectorAll('.button-wrapper');
+        buttons.forEach((button) => {
+            let target = button.querySelector('.target');
+            function handleMove(e) {
+                const x = -200 + (e.pageX - button.offsetLeft - 300 / 2) / 3;
+                const y = -70 + (e.pageY - button.offsetTop - 100 / 2) / 3;
+
+                target.style.setProperty('--x', `${ x }px`)
+                target.style.setProperty('--y', `${ y }px`)
+            }
+            button.addEventListener('mousemove', (e) => {
+                handleMove(e);
+            });
+            button.addEventListener('touchmove', (e) => {
+                handleMove(e.changedTouches[0]);
+            });
+        });
+        //Changing Language
+        function shevtsvalotEna(language) {
+            let ena = document.querySelector('.n');
+            let nav1 = document.querySelector('.mt'); 
+            let nav2 = document.querySelector('.shes');
+            let nav3 = document.querySelector('.r');
+            let nav4 = document.querySelector('.f');
+            let title = document.querySelector('.ttl');
+            let element1 = document.querySelector('.rr');
+            let element2 = document.querySelector('.text');
+            let element3 = document.querySelector('.s-f');
+            let element4 = document.querySelector('.s-g');
+            let element5 = document.querySelector('.s-git');
+            if (language === "eng") {
+                document.getElementById( "n" ).setAttribute( "onClick", "javascript: shevtsvalotEna('ka');" )
+                ena.innerHTML = "GEO";
+                nav1.innerHTML = "Home";
+                nav2.innerHTML = "About Me";
+                nav3.innerHTML = "Sign Up";
+                nav4.innerHTML = "FAQ";
+                title.innerHTML = "About Me";
+                element1.innerHTML = "Sign Up";
+                element2.innerHTML = "Sign Up";
+                element3.innerHTML = '<i class="fa fa-facebook" aria-hidden="true"></i> Log in with Facebook';
+                element4.innerHTML = '<i class="fa fa-google-plus" aria-hidden="true"></i> Log in with Google';
+                element5.innerHTML = '<i class="fa fa-github" aria-hidden="true"></i> Log in with GitHub';
+                document.getElementById( "user-name" ).placeholder= "User";
+                document.getElementById( "user-name" ).title= "Your name?";
+                document.getElementById( "paroli" ).placeholder= "Password";
+                document.getElementById( "paroli" ).title= "The Password field must contain at list 8 symbols with 1 or more number ";
+                document.getElementById( "confirm_paroli" ).placeholder= "Confirm Password";
+                document.getElementById( "confirm_paroli" ).title= "Confirm Password confirmation should match to password";
+            }
+            else {
+                document.getElementById( "n" ).setAttribute( "onClick", "javascript: shevtsvalotEna('eng');" )
+                ena.innerHTML = "ENG";
+                nav1.innerHTML = "მთავარი";
+                nav2.innerHTML = "ჩემს შესახებ";
+                nav3.innerHTML = "რეგისტრაცია";
+                nav4.innerHTML = "FAQ";
+                title.innerHTML = "ჩემს შესახებ";
+                element1.innerHTML = "რეგისტრაცია";
+                element2.innerHTML = "რეგისტრაცია";
+                element3.innerHTML = '<i class="fa fa-facebook" aria-hidden="true"></i> შემოგვიერთდი Facebook-ით';
+                element4.innerHTML = '<i class="fa fa-google-plus" aria-hidden="true"></i> შემოგვიერთდი Google-ით';
+                element5.innerHTML = '<i class="fa fa-github" aria-hidden="true"></i> შემოგვიერთდი GitHub-ით';
+                document.getElementById( "user-name" ).placeholder= "მომხმარებლის სახელი";
+                document.getElementById( "user-name" ).title= "თქვენი სახელი?";
+                document.getElementById( "paroli" ).placeholder= "პაროლი";
+                document.getElementById( "paroli" ).title= "უნდა შეიცავდეს მინიმუმ 8 სიმბოლოს და ერთს მაინც რიცხვს";
+                document.getElementById( "confirm_paroli" ).placeholder= "ხელახლა შეიყვანეთ პაროლი";
+                document.getElementById( "confirm_paroli" ).title= "ზუსტად უნდა ემთხვეოდეს პაროლს";
+            }
+        }
+    </script>
+</body>
+</html>
